@@ -1,5 +1,5 @@
 {
-    "version": "2.13.alpha",
+    "version": "2.13.alpha (01/09/2023)",
     "description": "3D point cloud and mesh processing software",
     "homepage": "https://cloudcompare.org/",
     "license": "GPL-2.0-or-later,LGPL-2.0-only",
@@ -19,7 +19,7 @@
     "##": "Latest <span class=\"highlight\">beta</span> release: 2.13.alpha (01/09/2023)",
     "checkver": {
         "url": "https://cloudcompare.org/release/",
-        "regex": "Latest\\s+.*(?<ignore>alpha|beta).*\\s*release:\\s*([\\d.]+[a-z]+)"
+        "regex": "Latest\\s+.*(?<ignore>alpha|beta).*\\s*release:\\s*(?<version>[\\d.]+[a-z]+\\s*\\([^\\)]+\\))"
     },
     "autoupdate": {
         "architecture": {
